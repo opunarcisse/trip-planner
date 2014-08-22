@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date of travel:</strong>
+  <%= @travel.date_of_travel %>
+</p>
+
+<p>
+  <strong>Time of travel:</strong>
+  <%= @travel.time_of_travel %>
+</p>
+
+<p>
+  <strong>Travel from:</strong>
+  <%= @travel.travel_from %>
+</p>
+
+<p>
+  <strong>Travelling to:</strong>
+  <%= @travel.travelling_to %>
+</p>
+
+<p>
+  <strong>Travel code:</strong>
+  <%= @travel.travel_code %>
+</p>
+
+<p>
+  <strong>Travel mode:</strong>
+  <%= @travel.travel_mode %>
+</p>
+
+<p>
+  <strong>Number of seats:</strong>
+  <%= @travel.number_of_seats %>
+</p>
+
+<p>
+  <strong>Bus details:</strong>
+  <%= @travel.bus_details %>
+</p>
+
+<p>
+  <strong>Remarks and conditions:</strong>
+  <%= @travel.remarks_and_conditions %>
+</p>
+
+<p>
+  <strong>Travel agency:</strong>
+  <%= @travel.travel_agency %>
+</p>
+
+<%= link_to 'Edit', edit_travel_path(@travel) %> |
+<%= link_to 'Back', travels_path %>

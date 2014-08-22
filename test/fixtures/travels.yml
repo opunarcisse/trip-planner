@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date_of_travel: 2014-08-22
+  time_of_travel: 2014-08-22 06:20:56
+  travel_from: MyString
+  travelling_to: MyString
+  travel_code: MyString
+  travel_mode: MyString
+  number_of_seats: 1
+  bus_details: MyString
+  remarks_and_conditions: MyText
+  travel_agency: MyString
+
+two:
+  date_of_travel: 2014-08-22
+  time_of_travel: 2014-08-22 06:20:56
+  travel_from: MyString
+  travelling_to: MyString
+  travel_code: MyString
+  travel_mode: MyString
+  number_of_seats: 1
+  bus_details: MyString
+  remarks_and_conditions: MyText
+  travel_agency: MyString
